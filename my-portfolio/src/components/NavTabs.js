@@ -6,7 +6,7 @@ import { Heading, Tab, Tabs, TabList, Flex } from "@chakra-ui/react";
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div>
-      <Flex>
+      <Flex mb={4}>
         <Heading p={4}>LILY SO</Heading>
         <Tabs p={4} colorScheme="yellow" align="end" variant="unstyled">
           <TabList>
