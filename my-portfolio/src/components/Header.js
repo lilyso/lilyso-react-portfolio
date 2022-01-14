@@ -1,18 +1,20 @@
 import React from "react";
-import { Heading, Tab, Tabs, TabList } from "@chakra-ui/react";
+import { Heading, Tab, Tabs, TabList, Flex } from "@chakra-ui/react";
 
 export default function Header() {
   return (
     <div>
-      <Heading p={4}>LILY SO</Heading>
-      <Tabs align="end" variant="enclosed">
-        <TabList>
-          <Tab>About</Tab>
-          <Tab>Projects</Tab>
-          <Tab>Contact</Tab>
-          <Tab>Resume</Tab>
-        </TabList>
-      </Tabs>
+      <Flex>
+        <Heading p={4}>LILY SO</Heading>
+        <Tabs p={4} colorScheme="yellow" align="end" variant="unstyled">
+          <TabList>
+            <Tab _selected={{ color: "white", bg: "blue.200" }}>About</Tab>
+            <Tab _selected={{ color: "white", bg: "blue.200" }}>Projects</Tab>
+            <Tab _selected={{ color: "white", bg: "blue.200" }}>Contact</Tab>
+            <Tab _selected={{ color: "white", bg: "blue.200" }}>Resume</Tab>
+          </TabList>
+        </Tabs>
+      </Flex>
     </div>
   );
 }
