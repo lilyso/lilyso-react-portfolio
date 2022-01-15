@@ -1,13 +1,14 @@
 import React from "react";
-import { Heading, Tab, Tabs, TabList, Flex } from "@chakra-ui/react";
+import { Heading, Tab, Tabs, TabList, Flex, Spacer } from "@chakra-ui/react";
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div>
-      <Flex mb={4}>
+      <Flex mx={4} mb={4}>
         <Heading p={4}>LILY SO</Heading>
+        <Spacer />
         <Tabs p={4} colorScheme="yellow" align="end" variant="unstyled">
           <TabList>
             <Tab _selected={{ color: "white", bg: "blue.200" }}>
@@ -24,7 +25,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             </Tab>
             <Tab _selected={{ color: "white", bg: "blue.200" }}>
               <a
-                href="#home"
+                href="#portfolio"
                 onClick={() => handlePageChange("Projects")}
                 // This is a conditional (ternary) operator that checks to see if the current page is "Home"
                 // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'

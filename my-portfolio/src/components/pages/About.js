@@ -3,7 +3,7 @@ import { Box } from "@chakra-ui/react";
 
 export default function About() {
   return (
-    <Box p={4}>
+    <Box mx={4} p={4}>
       <p>
         Hi, I'm Lily. I'm a full stack developer in training with experience in
         HTML5, CSS3, JavaScript, JQuery, MySQL, Node.js, MongoDB &amp; React.
