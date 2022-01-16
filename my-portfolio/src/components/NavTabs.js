@@ -11,7 +11,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         <Spacer />
         <Tabs p={4} colorScheme="yellow" align="end" variant="unstyled">
           <TabList>
-            <Tab _selected={{ color: "white", bg: "blue.200" }}>
+            <Tab _selected={{ color: "white", bg: "black" }}>
               <a
                 href="#about"
                 onClick={() => handlePageChange("About")}
@@ -23,7 +23,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                 ABOUT
               </a>
             </Tab>
-            <Tab _selected={{ color: "white", bg: "blue.200" }}>
+            <Tab _selected={{ color: "white", bg: "black" }}>
               <a
                 href="#portfolio"
                 onClick={() => handlePageChange("Projects")}
@@ -36,7 +36,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                 PROJECTS
               </a>
             </Tab>
-            <Tab _selected={{ color: "white", bg: "blue.200" }}>
+            <Tab _selected={{ color: "white", bg: "black" }}>
               <a
                 href="#blog"
                 onClick={() => handlePageChange("Contact")}
@@ -48,7 +48,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                 CONTACT
               </a>
             </Tab>
-            <Tab _selected={{ color: "white", bg: "blue.200" }}>
+            <Tab _selected={{ color: "white", bg: "black" }}>
               <a
                 href="#contact"
                 onClick={() => handlePageChange("Resume")}

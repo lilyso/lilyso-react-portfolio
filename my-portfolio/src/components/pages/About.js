@@ -7,7 +7,7 @@ export default function About() {
       <Image mx={4} borderRadius="full" src="./images/lilysoavatar.png" />
       <Box mx={4} p={4}>
         <Text mb={4} fontSize="4xl">
-          FULL STACK DEVELOPER
+          FULL STACK DEVELOPER &amp; <br></br>DIGITAL MARKETING SPECIALIST
         </Text>
         <br></br>
         <Text>

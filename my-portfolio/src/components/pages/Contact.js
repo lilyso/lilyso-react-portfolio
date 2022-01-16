@@ -33,17 +33,17 @@ export default function Contact() {
         <form>
           <FormControl my={4} isRequired>
             <FormLabel htmlFor="first-name">First name</FormLabel>
-            <Input id="first-name" placeholder="First name" />
+            <Input variant="flushed" id="first-name" />
           </FormControl>
           <FormControl my={4}>
             <FormLabel htmlFor="last-name">Last name</FormLabel>
-            <Input id="last-name" placeholder="Last name" />
+            <Input variant="flushed" id="last-name" />
           </FormControl>
           <FormControl my={4} isRequired>
             <FormLabel htmlFor="email">Email</FormLabel>
             <Input
+              variant="flushed"
               id="email"
-              placeholder="Email"
               onChange={(e) => validateEmail(e)}
             />{" "}
             <span
@@ -57,7 +57,7 @@ export default function Contact() {
           </FormControl>
           <FormControl my={4} isRequired>
             <FormLabel htmlFor="message">Message</FormLabel>
-            <Textarea placeholder="Write your message here" />
+            <Textarea variant="flushed" placeholder="Write your message here" />
           </FormControl>
           <Button mt={4} id="submitButton">
             Submit

@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Flex, Text, Button, Container } from "@chakra-ui/react";
+import { Text, Button, Container } from "@chakra-ui/react";
 
 export default function About() {
   return (
