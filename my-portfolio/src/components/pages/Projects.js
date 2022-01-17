@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Flex, Image } from "@chakra-ui/react";
+import { Box, Flex, Image, Wrap} from "@chakra-ui/react";
 
 const projectCard = () => {
   const projects = [
@@ -27,17 +27,26 @@ const projectCard = () => {
       img: "./images/my-weather-dashboard.png",
       alt: "My Weather Dashboard Homepage",
     },
+    {
+      title: "Work Day Scheduler",
+      link: "https://github.com/lilyso/work-day-scheduler",
+      img: "./images/work-day-scheduler.png",
+      alt: "Work Day Scheduler Homepage",
+    },
+    {
+      title: "Mr Note Taker",
+      link: "https://github.com/lilyso/mr-note-taker",
+      img: "./images/mr-note-taker.png",
+      alt: "Mr Note Taker Home Page",
+    },
   ];
 
   return projects.map((project) => (
     <Box
-      flex="wrap"
+      w={{ base: '100%', md: '50%', lg: '25%' }}
       mx={4}
       p={4}
-      maxW="sm"
-      borderWidth="1px"
-      borderRadius="lg"
-      overflow="hidden"
+
     >
       <Image src={project.img} alt={project.alt} />
       <a href={project.link}>
@@ -48,5 +57,5 @@ const projectCard = () => {
 };
 
 export default function ProjectRender() {
-  return <Flex mx={4}>{projectCard()}</Flex>;
+  return <Flex justify="center"><Wrap m={8}>{projectCard()}</Wrap></Flex>
 }

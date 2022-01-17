@@ -7,6 +7,7 @@ import {
   Container,
   Button,
   Text,
+  Box
 } from "@chakra-ui/react";
 import validator from "validator";
 
@@ -23,7 +24,8 @@ export default function Contact() {
   };
   return (
     <>
-      <Container>
+    <Box mx={4} >
+      <Container mt={8}>
         <Text fontSize="lg">
           Want to know more about my experience and projects? Get in touch
           today.
@@ -64,6 +66,7 @@ export default function Contact() {
           </Button>
         </form>
       </Container>
+      </Box>
     </>
   );
 }

@@ -4,7 +4,7 @@ import { Text, Button, Container } from "@chakra-ui/react";
 export default function About() {
   return (
     <Container mx={4} p={4}>
-      <Button mb={4}>Download Resume</Button>
+      <a href="./files/lily-souryaphanh-dev.pdf" target="_blank" rel="noreferral"><Button mb={4}>Download Resume</Button></a>
       <Text m={4}>FRONT END</Text>
       <Text m={8}>
         <ul>

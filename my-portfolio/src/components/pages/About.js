@@ -1,13 +1,15 @@
 import React from "react";
-import { Box, Image, Flex, Text } from "@chakra-ui/react";
+import { Box, Image, Flex, Text, Wrap, Heading } from "@chakra-ui/react";
 
 export default function About() {
   return (
-    <Flex>
-      <Image mx={4} borderRadius="full" src="./images/lilysoavatar.png" />
+    <Flex mx={4} justify="center" > 
+    <Wrap>
+      <Image w={{ base: '100%', md: '50%', lg: '25%' }} px={4} mx={8} borderRadius="full" src="./images/lilyfeature.png" />
       <Box mx={4} p={4}>
-        <Text mb={4} fontSize="4xl">
-          FULL STACK DEVELOPER &amp; <br></br>DIGITAL MARKETING SPECIALIST
+      <Heading>LILY SOURYAPHANH</Heading>
+        <Text mb={4} fontSize="2xl">
+          Full Stack Developer &amp; Digital Marketing Specialist
         </Text>
         <br></br>
         <Text>
@@ -31,6 +33,7 @@ export default function About() {
           build your brand and generate more leads.
         </Text>
       </Box>
+      </Wrap>
     </Flex>
   );
 }
