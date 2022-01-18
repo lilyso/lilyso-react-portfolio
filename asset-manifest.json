@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/lilyso-react-portfolio/static/css/main.e6c13ad2.css",
-    "main.js": "/lilyso-react-portfolio/static/js/main.1ad5248a.js",
+    "main.js": "/lilyso-react-portfolio/static/js/main.a017ed9a.js",
     "static/js/787.65557d19.chunk.js": "/lilyso-react-portfolio/static/js/787.65557d19.chunk.js",
     "index.html": "/lilyso-react-portfolio/index.html",
     "main.e6c13ad2.css.map": "/lilyso-react-portfolio/static/css/main.e6c13ad2.css.map",
-    "main.1ad5248a.js.map": "/lilyso-react-portfolio/static/js/main.1ad5248a.js.map",
+    "main.a017ed9a.js.map": "/lilyso-react-portfolio/static/js/main.a017ed9a.js.map",
     "787.65557d19.chunk.js.map": "/lilyso-react-portfolio/static/js/787.65557d19.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.1ad5248a.js"
+    "static/js/main.a017ed9a.js"
   ]
 }
