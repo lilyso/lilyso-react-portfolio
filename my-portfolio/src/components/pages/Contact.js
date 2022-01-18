@@ -14,7 +14,7 @@ import validator from "validator";
 export default function Contact() {
   const [emailError, setEmailError] = useState("");
   const validateEmail = (e) => {
-    var email = e.target.value;
+    let email = e.target.value;
 
     if (validator.isEmail(email)) {
       setEmailError("Perfecto");
@@ -47,7 +47,7 @@ export default function Contact() {
               bg="white" variant="filled"
               id="email"
               onChange={(e) => validateEmail(e)}
-            />{" "}
+            />
             <span
               style={{
                 fontWeight: "bold",
@@ -59,9 +59,9 @@ export default function Contact() {
           </FormControl>
           <FormControl my={4} isRequired>
             <FormLabel  htmlFor="message">Message</FormLabel>
-            <Textarea bg="white" variant="filled" placeholder="Write your message here" />
+            <Textarea id="message" bg="white" variant="filled" placeholder="Write your message here" />
           </FormControl>
-          <Button bg="black" color="white" mt={4} id="submitButton">
+          <Button bg="black" color="white" mt={4} id="submitButton" type="submit" >
             Submit
           </Button>
         </form>
