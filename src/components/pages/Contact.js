@@ -7,7 +7,8 @@ import {
   Container,
   Button,
   Text,
-  Box
+  Box,
+  Link
 } from "@chakra-ui/react";
 import validator from "validator";
 
@@ -28,7 +29,7 @@ export default function Contact() {
       <Container mt={8}>
         <Text fontSize="lg">
           Want to know more about my experience and projects? Get in touch
-          today.
+          today at <Link href="mailto:lily@lilyso.net">lily@lilyso.net</Link> or send me a message below.
         </Text>
       </Container>
       <Container mt={8}>
