@@ -34,7 +34,7 @@
 
 ## Screenshots
 
-![Lily So's Portfolio](./images/portfolio-screenshot.png)
+![Lily So's Portfolio](./public/images/portfolio-screenshot.png)
 
 ## Setup
 
