@@ -55,7 +55,7 @@ const projectCard = () => {
       p={4}
 
     >
-      <Link href={project.link}>
+      <Link href={project.link} target="_blank" rel="noreferrer">
       <Image src={project.img} alt={project.alt} />
         <Text p={2} color="white" bg="black">{project.title}</Text>
       </Link>
