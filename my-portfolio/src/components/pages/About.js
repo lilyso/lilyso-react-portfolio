@@ -5,13 +5,12 @@ export default function About() {
   return (
     <Flex mx={4} justify="center" > 
     <Wrap>
-      <Image w={{ base: '100%', md: '50%', lg: '25%' }} px={4} mx={8} borderRadius="full" src="./images/lilyfeature.png" />
-      <Box mx={4} p={4}>
+      <Image boxSize={{ base: '100%', md: '33%', lg: '33%' }} p={4} mx={4} borderRadius="full" src="./images/lilyfeature.png" /> 
+      <Box w={{ base: '100%', md: '33%', lg: '66%' }} flex="2" mx={4} p={4}>
       <Heading>LILY SOURYAPHANH</Heading>
-        <Text mb={4} fontSize="2xl">
+        <Text  mb={8} fontSize="2xl">
           Full Stack Developer &amp; Digital Marketing Specialist
         </Text>
-        <br></br>
         <Text>
           Hi, I'm Lily. I'm a full stack developer in training with experience
           in HTML5, CSS3, JavaScript, JQuery, MySQL, Node.js, MongoDB &amp;
